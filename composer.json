@@ -1,6 +1,6 @@
 {
     "name": "billingplus/datlarobj",
-    "description": "\"Php object to manage datatable requests using laravel eloquent ORM\"",
+    "description": "Clase de php para manejar las solicitudes de datatables utilizando el ORM de Eloquent",
     "license": "GPL-3.0-or-later",
     "keywords": [
       "laravel",
