@@ -1,0 +1,42 @@
+{
+    "name": "billingplus/datlarobj",
+    "description": "\"Php object to manage datatable requests using laravel eloquent ORM\"",
+    "license": "GPL-3.0-or-later",
+    "keywords": [
+      "laravel",
+      "database",
+      "sql",
+      "orm",
+      "datatables"
+    ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/billingplus/Datatables_Backend"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Andres Felipe Delgado",
+        "email": "andresfdel13@hotmail.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": "=7.4",
+      "illuminate/database": ">=7.9",
+      "doctrine/dbal": ">=2.10"
+    },
+    "autoload": {
+      "psr-4": {
+        "BillingPlus\\": "src/"
+      }
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-master": "1.0.x-dev"
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
