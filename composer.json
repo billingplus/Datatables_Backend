@@ -1,42 +1,38 @@
 {
-    "name": "billingplus/datlarobj",
-    "description": "Clase de php para manejar las solicitudes de datatables utilizando el ORM de Eloquent",
-    "license": "GPL-3.0-or-later",
-    "keywords": [
-      "laravel",
-      "database",
-      "sql",
-      "orm",
-      "datatables"
-    ],
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/billingplus/Datatables_Backend"
-      }
-    ],
-    "authors": [
-      {
-        "name": "Andres Felipe Delgado",
-        "email": "andresfdel13@hotmail.com",
-        "role": "Developer"
-      }
-    ],
-    "require": {
-      "php": "=7.4",
-      "illuminate/database": ">=7.9",
-      "doctrine/dbal": ">=2.10"
-    },
-    "autoload": {
-      "psr-4": {
-        "BillingPlus\\": "src/"
-      }
-    },
-    "extra": {
-      "branch-alias": {
-        "dev-main": "1.1.x-dev"
-      }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
-  }
+  "name": "billingplus/datlarobj",
+  "description": "Clase de php para manejar las solicitudes de datatables utilizando el ORM de Eloquent",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "laravel",
+    "database",
+    "sql",
+    "orm",
+    "datatables"
+  ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/billingplus/Datatables_Backend"
+  }],
+  "authors": [{
+    "name": "Andres Felipe Delgado",
+    "email": "andresfdel13@hotmail.com",
+    "role": "Developer"
+  }],
+  "require": {
+    "php": ">=8.0",
+    "illuminate/database": ">=7.9",
+    "doctrine/dbal": ">=2.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "BillingPlus\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "2.1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

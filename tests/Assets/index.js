@@ -4,11 +4,14 @@ $(document).ready(function () {
     serverSide: true,
     order: [[0, "desc"]],
     ajax: {
-      url: "Controller/Datatables",
+      url: "../Controllers/Controller.php/Datatables",
       type: "POST",
       data: function (d) {
         d.status = $("#filter").val();
       },
+      /*complete: data => {
+        console.log(data.responseText)
+      }*/
     },
     columns: [
       {
@@ -18,7 +21,7 @@ $(document).ready(function () {
         data: "name",
       },
       {
-        data: "email",
+        data: "description",
       },
       {
         data: "id",
