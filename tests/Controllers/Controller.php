@@ -1,7 +1,8 @@
 <?php
 
-require_once "Clases/Datatables.php";
-require_once "Models/Model.php";
+use BillingPlus\Datatables;
+
+require_once "../Model.php";
 class Controller
 
 {
